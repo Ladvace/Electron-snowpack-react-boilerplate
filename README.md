@@ -4,6 +4,7 @@ This boilerplate uses Electron, React, React Router, Redux, Connected-react-rout
 
 ## File structure
 
+```
 Src
 └── components
 └── reducers
@@ -14,6 +15,7 @@ Src
 ────Root.js
 ────electron.js
 ────preload.js
+```
 
 ## Scripts
 
@@ -27,14 +29,9 @@ Src
 
 `snowpack-dev` - Start only snowpack dev
 
-## Support 💻
-
-If you want to be an active contributor join the discord server [here](https://discord.gg/fnmKKWPWpB)
-
 ## Donation 💰
 
-- If you want to support the me and the discord development consider voting the bot [here](https://top.gg/bot/589693244456042497) and
-  donating:
+- If you want to support the me consider donating:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WJWDBJENVNGHE)
 
