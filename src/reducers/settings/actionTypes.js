@@ -1,0 +1,1 @@
+export const INCREMENT_COUNTER = "settings/INCREMENT_COUNTER";

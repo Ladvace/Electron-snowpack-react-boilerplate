@@ -1,0 +1,54 @@
+{
+  "name": "electron-snowpack-react-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for electron-reactjs-snowpack",
+  "main": "electron.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run snowpack-dev\" \"npm run electron-start\"",
+    "build": "npm run snowpack-build",
+    "electron-start": "electron .",
+    "electron-prod": "cross-env NODE_ENV=production electron .",
+    "snowpack-dev": "snowpack dev --open none",
+    "snowpack-prepare": "snowpack install",
+    "snowpack-build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ladvace/Electron-snowpack-react-boilerplate.git"
+  },
+  "keywords": [
+    "snowpack",
+    "electron",
+    "react"
+  ],
+  "author": "Stepan Vanzuriak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ladvace/Electron-snowpack-react-boilerplate/issues"
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^2.0.0",
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "concurrently": "^6.0.0",
+    "cross-env": "^7.0.3",
+    "electron": "11.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "builtin-modules": "^3.2.0",
+    "connected-react-router": "^6.9.1",
+    "history": "^4.0.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "styled-components": "^5.2.1"
+  }
+}

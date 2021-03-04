@@ -1,0 +1,15 @@
+{
+  "extends": "@snowpack/app-scripts-react",
+  "mount": {
+    "src": { "url": "/dist" }
+  },
+  "buildOptions": {
+    "baseUrl": "./"
+  },
+
+  "plugins": ["@snowpack/plugin-webpack"],
+  "exclude": ["electron.js"],
+  "packageOptions": {
+    "external": ["electron"]
+  }
+}
